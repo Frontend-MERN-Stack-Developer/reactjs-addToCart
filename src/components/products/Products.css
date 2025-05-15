@@ -1,0 +1,36 @@
+.card{
+    padding: 20px;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: calc(var(--bs-gutter-x) * 1);
+  }
+  .card .img-box{
+    height: 200px;
+    overflow: hidden;
+    padding: 0 0 10px;
+  }
+  .card .img-box img{
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  .card h2{
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 0 15px;
+  }
+  .btn{
+    color: #fff;
+    outline: none;
+    background-color: #54d400;
+  }
+  .btn:hover{
+    color: #54d400;
+    background-color: #65fe0070;
+  }
+  .btn:active,
+  .btn:focus{
+    outline: none;
+    box-shadow: none;
+}
